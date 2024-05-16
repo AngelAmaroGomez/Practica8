@@ -1,0 +1,49 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+        <title>Operadores</title>
+        <script type="text/javascript">
+            var valores = [true, 5, false, "hola", "adios", 2];
+          document.write(valores + "<br/>");
+            var resultado = valores[3] > valores[4];
+            document.write(resultado + "<br/>");
+//colocar document.writte () en cada uno de los alert para que se muestre como resultado
+            // Combinar valores booleanos
+            var valor1 = valores[0];
+            var valor2 = valores[2];
+
+            // Obtener un resultado TRUE
+            var resultado = valor1 || valor2;
+            document.write("Resultado 1 :" + resultado + "<br/>");
+
+            // Obtener un resultado FALSE
+            var resultado = valor1 && valor2;
+            document.write("resultado 2 : " + resultado + "<br/>");
+
+            // Operaciones matemáticas
+            var num1 = valores[1];
+            var num2 = valores[5];
+
+            var suma = num1 + num2;
+            document.write("Resultado 3: " + suma + "<br/>");
+
+            var resta = num1  - num2;
+            document.write("Resultado 4: " + resta + "<br/>");
+
+            var multiplicacion = num1 * num2;
+            document.write("Resultado 5: " + multiplicacion + "<br/>");
+          
+            var Division = num1 / num2;
+            document.write("Resultado 6: " + Division + "<br/>");
+
+            var modulo = num1 % num2
+            document.write("El resultado 7: " + modulo + "<br/>");
+ 
+        </script>
+    </head>
+
+    <body>
+        <marquee> <p>Esta página muestra operadores</p>
+    </body>
+</html>
